@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="537609ff9af7431085e73aaf93c06df7" Name="Diagram1">
+        <EntityTypeShape EntityType="FacturacionModel.CategoriaProducto" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.Cliente" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.DetalleFactura" Width="1.5" PointX="7.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.Factura" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.IVA" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.ModoPago" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.Producto" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.Proveedor" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.TipoCliente" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.TipoComprobante" Width="1.5" PointX="7.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.TipoVendedor" Width="1.5" PointX="7.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FacturacionModel.Vendedor" Width="1.5" PointX="10" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="FacturacionModel.FK_Producto_CategoriaProducto" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Producto_CategoriaProducto1" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Cliente_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Cliente_IVA" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Factura_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Factura_ModoPago" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Proveedor_IVA" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Producto_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Proveedor_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="FacturacionModel.FK_Vendedor_TipoVendedor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
